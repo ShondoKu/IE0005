@@ -14,9 +14,9 @@ try:
             b.write("\n"+x)
             b.close()
 
-    '''b=open('blocklist.txt')
+    b=open('blocklist.txt')
     for u in b.readlines():
-        print(u)'''
+        print(u)
 
 except FileNotFoundError:
     if path.exists(blocklist_file_path) == False:
