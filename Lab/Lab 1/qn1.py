@@ -12,6 +12,6 @@ try:
         print(u)
 
 except FileNotFoundError:
-    print('File not found!')
+    print('File blocklist.txt not found!')
 else:
     f.close()
