@@ -1,5 +1,5 @@
 from os import path
-file_path = path.abspath(__file__) # full path of your script
+file_path = path.abspath('') # full path of your script
 dir_path = path.dirname(file_path) # full path of the directory of your script
 blocklist_file_path = path.join(dir_path,'blocklist.txt')
 visitorlist_file_path = path.join(dir_path,'visitorlist.txt')
