@@ -7,7 +7,7 @@ visitorlist_file_path = path.join(dir_path,'visitorlist.txt')
 
 try: 
     b=open('blocklist.txt')
-    v=open('visitors.txt')
+    v=open('visitorlist.txt')
     
     visitors=v.read().split('\n')
     blocklist=b.read().split('\n')
